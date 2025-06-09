@@ -1,61 +1,99 @@
 <!DOCTYPE html>
 <html lang="el">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brawl Stars Fan Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brawl Stars Fan Universe</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-r from-blue-900 to-purple-800 text-white min-h-screen font-sans">
+<body class="bg-gradient-to-r from-blue-900 to-purple-800 text-white font-sans">
   <!-- Header -->
-  <header class="p-6 bg-black bg-opacity-60 shadow-lg">
-    <h1 class="text-4xl font-bold text-yellow-400">⭐ Brawl Stars Fan Page ⭐</h1>
-    <nav class="mt-4 space-x-4">
+  <header class="p-6 bg-black bg-opacity-70 shadow-lg flex justify-between items-center">
+    <h1 class="text-3xl font-bold text-yellow-400">⭐ Brawl Stars Universe ⭐</h1>
+    <nav class="space-x-4">
       <a href="#brawlers" class="hover:underline">Brawlers</a>
-      <a href="#news" class="hover:underline">Νέα</a>
+      <a href="#modes" class="hover:underline">Modes</a>
+      <a href="#news" class="hover:underline">News</a>
+      <a href="#gallery" class="hover:underline">Gallery</a>
+      <a href="#faq" class="hover:underline">FAQ</a>
     </nav>
   </header>
 
-  <!-- Hero section -->
-  <section class="text-center py-20">
-    <h2 class="text-5xl font-bold mb-4">Γίνε ο καλύτερος στο Brawl Stars!</h2>
-    <p class="text-xl mb-6">Όλες οι πληροφορίες για τους brawlers, ενημερώσεις και νέα!</p>
-    <a href="#brawlers" class="px-6 py-3 bg-yellow-400 text-black rounded-full font-bold shadow hover:bg-yellow-300">Δες τους Brawlers</a>
+  <!-- Hero -->
+  <section class="text-center py-16 px-4">
+    <h2 class="text-5xl font-extrabold mb-4">Καλώς ήρθες στον κόσμο του Brawl Stars!</h2>
+    <p class="text-lg max-w-2xl mx-auto">Ανακάλυψε χαρακτήρες, modes, νέα, εικόνες και πολλά άλλα. Ενημερώνουμε συνεχώς!</p>
   </section>
 
-  <!-- Brawlers Section -->
+  <!-- Brawlers -->
   <section id="brawlers" class="p-8 bg-white text-black">
     <h3 class="text-3xl font-bold text-center mb-6">Δημοφιλείς Brawlers</h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div class="bg-yellow-100 p-4 rounded-lg shadow text-center">
-        <img src="https://static.wikia.nocookie.net/brawlstars/images/1/1f/Shelly_Skin-Default.png" alt="Shelly" class="mx-auto h-32">
+        <img src="https://static.wikia.nocookie.net/brawlstars/images/1/1f/Shelly_Skin-Default.png" class="mx-auto h-32">
         <h4 class="text-xl font-bold mt-2">Shelly</h4>
-        <p>Μαχήτρια με shotgun - δυνατή από κοντά!</p>
+        <p>Shotgun expert για μάχες κοντινής απόστασης.</p>
       </div>
       <div class="bg-yellow-100 p-4 rounded-lg shadow text-center">
-        <img src="https://static.wikia.nocookie.net/brawlstars/images/0/04/Colt_Skin-Default.png" alt="Colt" class="mx-auto h-32">
+        <img src="https://static.wikia.nocookie.net/brawlstars/images/0/04/Colt_Skin-Default.png" class="mx-auto h-32">
         <h4 class="text-xl font-bold mt-2">Colt</h4>
-        <p>Γρήγορος πιστολέρο με μεγάλη ακρίβεια!</p>
+        <p>Ταχύς πιστολέρο με ακρίβεια και δύναμη!</p>
       </div>
       <div class="bg-yellow-100 p-4 rounded-lg shadow text-center">
-        <img src="https://static.wikia.nocookie.net/brawlstars/images/4/4a/Nita_Skin-Default.png" alt="Nita" class="mx-auto h-32">
+        <img src="https://static.wikia.nocookie.net/brawlstars/images/4/4a/Nita_Skin-Default.png" class="mx-auto h-32">
         <h4 class="text-xl font-bold mt-2">Nita</h4>
-        <p>Ισχυρή με τη βοήθεια της αρκούδας της!</p>
+        <p>Συνεργάζεται με την αρκούδα της για στρατηγικές επιθέσεις.</p>
       </div>
     </div>
   </section>
 
-  <!-- News Section -->
-  <section id="news" class="p-8">
-    <h3 class="text-3xl font-bold text-center mb-6">📰 Νέα & Ενημερώσεις</h3>
-    <div class="max-w-3xl mx-auto space-y-4">
-      <div class="bg-black bg-opacity-30 p-4 rounded">
-        <h4 class="text-2xl font-bold text-yellow-300">🎉 Νέος Brawler: Chuck!</h4>
-        <p>Ο Chuck προστίθεται στο παιχνίδι με νέα ικανότητα "Train Charge"!</p>
+  <!-- Game Modes -->
+  <section id="modes" class="p-8">
+    <h3 class="text-3xl font-bold text-center mb-6">🎮 Game Modes</h3>
+    <ul class="max-w-3xl mx-auto space-y-3 list-disc list-inside text-lg">
+      <li><strong>Gem Grab:</strong> Συλλέξτε 10 πολύτιμους λίθους και κρατήστε τους!</li>
+      <li><strong>Showdown:</strong> Solo ή Duo - μείνε ο τελευταίος!</li>
+      <li><strong>Brawl Ball:</strong> Σαν ποδόσφαιρο με υπερδυνάμεις!</li>
+      <li><strong>Heist:</strong> Επίθεση και άμυνα σε θησαυροφυλάκιο!</li>
+    </ul>
+  </section>
+
+  <!-- News -->
+  <section id="news" class="p-8 bg-purple-900 bg-opacity-70">
+    <h3 class="text-3xl font-bold text-center mb-6">📰 Τελευταία Νέα</h3>
+    <div class="space-y-4 max-w-3xl mx-auto">
+      <div class="bg-black bg-opacity-40 p-4 rounded">
+        <h4 class="text-xl font-bold text-yellow-300">🎉 Νέος Brawler: Chuck</h4>
+        <p>Ο Chuck έρχεται με ικανότητα τηλεμεταφοράς στις ράγες!</p>
       </div>
-      <div class="bg-black bg-opacity-30 p-4 rounded">
-        <h4 class="text-2xl font-bold text-yellow-300">🔧 Ενημέρωση Ισορροπίας</h4>
-        <p>Η Shelly έχει υποστεί nerf στην ult της. Δες όλα τα patch notes.</p>
+      <div class="bg-black bg-opacity-40 p-4 rounded">
+        <h4 class="text-xl font-bold text-yellow-300">🛠 Patch Notes</h4>
+        <p>Αναβαθμίσεις σε Colt και nerf σε Edgar. Δες όλα τα balances!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="p-8 bg-white text-black">
+    <h3 class="text-3xl font-bold text-center mb-6">🖼 Fan Gallery</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <img src="https://i.ytimg.com/vi/jWB-1HkCIRc/maxresdefault.jpg" class="rounded shadow">
+      <img src="https://cdn.supercell.com/supercell.com/220321105054/scimages/brawlstars_og_img.jpg" class="rounded shadow">
+      <img src="https://assets.brawlify.com/splash/splash_0000.png" class="rounded shadow">
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="p-8 text-white">
+    <h3 class="text-3xl font-bold text-center mb-6">❓ Συχνές Ερωτήσεις</h3>
+    <div class="max-w-3xl mx-auto space-y-4">
+      <div class="bg-black bg-opacity-40 p-4 rounded">
+        <h4 class="text-xl font-semibold">Πώς ξεκλειδώνω νέους Brawlers;</h4>
+        <p>Μέσα από το Brawl Pass ή ανοίγοντας Brawl Boxes.</p>
+      </div>
+      <div class="bg-black bg-opacity-40 p-4 rounded">
+        <h4 class="text-xl font-semibold">Υπάρχει ranked mode;</h4>
+        <p>Υπάρχει Power League όπου μπορείς να ανταγωνιστείς άλλους παίκτες.</p>
       </div>
     </div>
   </section>
